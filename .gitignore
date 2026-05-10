@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated data folders
+suez_normandie_dirty_files/
+suez_normandie_clean_files/
+suez_normandie_audit_outputs/
+suez_normandie_bc_mapping/
+
+# Excel generated outputs
+*.xlsx
+*.xlsm
+*.xls
+
+# Power BI local files
+*.pbix
+*.pbit
+
+# Secrets
+*.env
+secrets.json
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
